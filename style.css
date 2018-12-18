@@ -1,0 +1,206 @@
+/* CSS STYLING ELEMENTS FOR FINAL PROJECT BY RACHEL CHEUNG*/
+
+/* for 980px or less */
+@media screen and (max-width:980px) {
+	#pagewrap {
+		width: 94%
+	}
+	#content {
+		width: 65%
+	}
+	#sidebar {
+		width: 30%
+	}
+}
+
+/* font styling for text */
+p {
+	font-family: courier;
+}
+
+/* hover color styling elements for buttons */
+button:hover { 
+  background-color: red;
+}
+
+/* styling color for article titles */
+i {
+	color: red;
+}
+
+/* bottom border line for page itle */
+#title {
+	border-bottom: solid 2px black;
+	font-size: 50px;
+	margin: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+/* styling elements for hero image */
+body, html {
+    height: 100%;
+    width: 100%;
+}
+.hero-image {
+
+  /* specific height */
+  height: 50%;
+
+  /* center hero image for all screens */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+}
+
+/* hero image text in the middle of the image, color, font, etc. */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  padding-bottom: 10px;
+}
+
+/* styling elements for nyc skyline image */
+.center{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 10px;
+  margin-top: -300px;
+}
+
+
+/* styling elements for social links */
+#links {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/* styling elements for story 1 */
+#s1 {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border: 1px solid #000;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+#story1 {
+	text-align: center;
+	padding-left: 30px;
+}
+#bodega {
+	float: right;
+	height: 500px;
+	width: 500px;
+	padding-left: 20px;
+}
+#bodega2 {
+	float: left;
+	height: 500px;
+	width: 300px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+
+/* styling elements for story 2 */
+#s2 {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border: 1px solid #000;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+#story2 {
+	text-align: center;
+}
+#graffiti {
+	float: right;
+	height: 200px;
+	width: 450px;
+	padding-left: 20px;
+}
+#graffiti2 {
+	float: left;
+	height: 400px;
+	width: 250px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+#graffiti3 {
+	float: right;
+	height: 500px;
+	width: 350px;
+	padding-left: 20px;
+}
+
+/* styling elements for story 3 */
+#s3 {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border: 1px solid #000;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+#story3 {
+	text-align: center;
+}
+
+#food {
+	float: right;
+	height: 400px;
+	width: 250px;
+	padding-left: 20px;
+}
+#food2 {
+	float: left;
+	height: 400px;
+	width: 250px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+#food3 {
+	float: right;
+	height: 250px;
+	width: 400px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+#food4 {
+	float: left;
+	height: 500px;
+	width: 350px;
+	padding-right: 20px;
+}
+
+#chart {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding-bottom: -100px;
+	margin-bottom: -100px;
+
+}
+
+#pie {
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: -100px;
+}
+
+
